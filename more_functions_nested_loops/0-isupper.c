@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main- Entry point
+ *_isupper - checkq for uppercase characters
+ *@c: character checked
  * Return: always 0
  */
 int _isupper(int c)
