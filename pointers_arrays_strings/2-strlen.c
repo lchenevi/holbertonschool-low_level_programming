@@ -2,7 +2,8 @@
 
 /**
  *_strlen - calculate the length of a string
- *@s: checked
+ *@s: checke
+ *Return: return the length o a string
  */
 int _strlen(char *s)
 {
