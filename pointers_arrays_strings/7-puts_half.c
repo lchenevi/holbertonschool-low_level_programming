@@ -18,7 +18,7 @@ void puts_half(char *str)
 		index = len / 2;
 	else
 		/*string length is odd*/
-		index = (len - 1) / 2;
+		index = (len + 1) / 2;
 	/*prints the second half of the string*/
 	for (i = index; i < len; i++)
 		_putchar(str[i]);
