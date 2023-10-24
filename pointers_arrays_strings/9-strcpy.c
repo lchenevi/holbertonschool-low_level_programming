@@ -10,13 +10,14 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int len;
+	char *dest_orig = dest; /*Store the original destination address*/
 
-	len = 0;
-	while (src[len] != '\0')
+	while (*src != '\0')
 	{
-		dest[len] = src[len];
-		len++;
+		*dest = *src;
+		dest++;
+		src++;
 	}
-	return (dest);
+	*dest = '\0'; /*Add the null terminator to the destination string*/
+	return dest_orig;
 }
