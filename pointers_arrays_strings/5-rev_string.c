@@ -11,14 +11,15 @@ void rev_string(char *s)
 	int j;
 
     /*Find the length of the string*/
-    while (s[len] != '\0')
-        len++;
+	while (s[len] != '\0')
+		len++;
 
     /*Reverse the string in-place*/
-    for (i = 0, j = len - 1; i < j; i++, j--)
-    {
-        char temp = s[i];
-        s[i] = s[j];
-        s[j] = temp;
-    }
+	for (i = 0, j = len - 1; i < j; i++, j--)
+	{
+		char temp = s[i];
+
+		s[i] = s[j];
+		s[j] = temp;
+	}
 }
