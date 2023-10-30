@@ -3,6 +3,7 @@
 /**
  *_strlen_recursion - prints a reversed string with newline
  * @s: checked
+ *Return: string length
  */
 int _strlen_recursion(char *s)
 {
