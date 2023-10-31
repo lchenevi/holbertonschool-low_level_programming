@@ -10,11 +10,12 @@ int is_prime_recursive(int n, int divisor)
 {
 	if (n <= 1)
 	{
-		return (0);/*1 and non-positive integers are not prime*/
+		return (0);
+		/*1 and non-positive integers are not prime*/
 	}
 	if (divisor == 1)
 	{
-		return (1);/*Base case: n is prime*/
+		return (1); /*Base case: n is prime*/
 	}
 	if (n % divisor == 0)
 	{
