@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *factorial - factorial numbers
- * @n: checked
+ *_pow_recursion - factorial numbers
+ * @x: checked
+ * @y: checked
  *Return: the factorial value of 'n'
  */
 int _pow_recursion(int x, int y)
