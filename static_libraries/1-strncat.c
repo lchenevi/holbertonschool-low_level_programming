@@ -23,6 +23,6 @@ char *_strncat(char *dest, char *src, int n)
 		src++;
 		i++;
 	}
-	dest_l = '\0';/*Add a new null terminator to dest*/
+	*dest_l = '\0';/*Add a new null terminator to dest*/
 	return (dest);
 }
