@@ -15,7 +15,7 @@
 	if (str == NULL)
 		return (NULL);
 
-	duplicate = malloc(sizeof(duplicate) * sizeof(str) + 1);
+	duplicate = malloc(sizeof(char) * sizeof(str) + 1);
 	if (duplicate == NULL)
 		return (NULL);
 	strcpy(duplicate, str);
