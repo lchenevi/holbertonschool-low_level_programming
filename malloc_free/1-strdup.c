@@ -11,7 +11,7 @@
  char *_strdup(char *str)
  {
 	char *duplicate;
-	unsigned int length, i;
+	unsigned int length, index;
 
 	/*Check if str is NULL*/
 	if (str == NULL)
@@ -30,8 +30,8 @@
 		return (NULL);
 
 	/*Manually copy the characters from str to duplicate*/
-	for (i = 0; i < length; i++)
-		duplicate[i] = str[i];
+	for (index = 0; index < length; index++)
+		duplicate[index] = str[index];
 
 	return (duplicate);
  }
