@@ -23,7 +23,7 @@
 		length++;
 
 	/*Allocate memory for the duplicate string*/
-	duplicate = malloc(sizeof(duplicate) * sizeof(str) + 1);
+	duplicate = malloc(sizeof(duplicate) * length + 1);
 
 	/*Check if memory allocation failed*/
 	if (duplicate == NULL)
@@ -33,5 +33,6 @@
 	for (i = 0; i < length; i++)
 		duplicate[i] = str[i];
 
+	duplicate[i] = '\0';
 	return (duplicate);
  }
