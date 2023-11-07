@@ -8,8 +8,8 @@
  * Return: Returns the copy
  */
 
- char *_strdup(char *str)
- {
+char *_strdup(char *str)
+{
 	char *duplicate;
 	unsigned int length, index;
 
@@ -34,4 +34,4 @@
 		duplicate[index] = str[index];
 
 	return (duplicate);
- }
+}
