@@ -30,7 +30,7 @@
 		return (NULL);
 
 	/*Manually copy the characters from str to duplicate*/
-	for (i = 0; i <= length; i++)
+	for (i = 0; i < length; i++)
 		duplicate[i] = str[i];
 
 	return (duplicate);
