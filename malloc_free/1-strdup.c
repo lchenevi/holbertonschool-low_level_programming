@@ -23,7 +23,7 @@
 		length++;
 
 	/*Allocate memory for the duplicate string*/
-	duplicate = malloc(sizeof(duplicate) * sizeof(length) + 1);
+	duplicate = malloc(sizeof(duplicate) * str + 1);
 
 	/*Check if memory allocation failed*/
 	if (duplicate == NULL)
