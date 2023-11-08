@@ -3,10 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _strdup - copies an array
+ * str_concat - copies a string into another
  * @s1: checked
  * @s2: checked
- * Return: Returns the copy
+ * Return: Returns the string
  */
 
 char *str_concat(char *s1, char *s2)
