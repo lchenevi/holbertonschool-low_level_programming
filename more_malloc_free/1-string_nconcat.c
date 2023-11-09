@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * malloc_checked - creates array of chars
+ * string_nconcat - creates array of chars
  * @s1: checked
  * @s2: checked
  * @n: checked
@@ -12,7 +12,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *new;
-	unsigned int i, len1 =0, len2 = 0, s1s2 = 0;
+	unsigned int i, len1 = 0, len2 = 0, s1s2 = 0;
 
 	if (s1 == NULL)
 		return ("");
