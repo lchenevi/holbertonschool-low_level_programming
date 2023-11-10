@@ -10,7 +10,8 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	unsigned int total_size, *m_alouer, index;
+	unsigned int total_size, index;
+	char *m_alouer;
 
 	if (nmemb == 0)
 		return (NULL);
