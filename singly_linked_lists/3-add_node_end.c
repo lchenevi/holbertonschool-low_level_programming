@@ -40,14 +40,12 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (*head == NULL)
 	{
-
 		/*If the list is empty, make the new node the head*/
 		*head = new_node;
 	}
 	else
 	{
-		/*Find the last node and link the new node*/
-		list_t *current = *head;
+		list_t *current = *head; /*Find the last node and link the new node*/
 
 		while (current->next != NULL)
 		{
